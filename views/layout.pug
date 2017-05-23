@@ -1,18 +1,19 @@
 doctype html
 html
   head
-    meta(charset="utf-8")
-    meta(content="width=device-width, initial-scale=1" name="viewport")
+    meta(charset='utf-8')
+    meta(content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport')
     title= title
     link(rel='stylesheet', href='/css/bootstrap.min.css')
-    link(rel="stylesheet" href="/css/jquery-ui.min.css")
+    link(rel='stylesheet' href='/css/jquery-ui.min.css')
     link(rel='stylesheet', href='/css/style.css')
   body
     block content
 
-    script(src="/js/jquery-1.12.1.min.js")
-    script(scr="/js/jquery-ui.min.js")
-    script(src="/js/bootstrap.min.js")
+    script(src='/js/jquery-1.12.1.min.js')
+    script(scr='/js/jquery-ui.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js' integrity='sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb' crossorigin='anonymous')
+    script(src='/js/bootstrap.min.js')
 
     
     block scripts
